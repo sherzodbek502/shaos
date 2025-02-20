@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-image: url("slider2\ 2\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80vh;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;    
+    justify-content: space-between;
+}
+nav h1{
+font-family: Inter;
+font-weight: 600;
+font-size: 28px;
+line-height: 33.89px;
+color: #FFFDFD;
+
+}
+.linkul{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+a{
+    font-family: Inter;
+font-weight: 400;
+font-size: 18px;
+line-height: 21.78px;
+letter-spacing: 0%;
+color: #FFFFFF;
+
+}
+.right{
+    width: 300px;height: 50px;background: #FFFFFF;
+    display: flex;
+}
+input{
+    flex: 1;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+}
+.right{
+    align-items: center;
+}
+.right img{
+    width: 50px;
+    height:20px;
+    cursor: pointer;
+    
+}
+.tap{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+    height: 40vh;
+    margin-top: 100px;
+}
+.tap h1{
+    color:white ;
+    font-family: Inter;
+font-weight: 700;
+font-size: 40px;
+line-height: 48.41px;
+letter-spacing: 0%;
+
+}
+.tap button{
+    width: 109px;
+height: 55px;
+cursor: pointer;
+background: #76B900;
+font-family: Inter;
+font-weight: 700;
+font-size: 17px;
+line-height: 19.36px;
+letter-spacing: 0%;
+color: #000000;
+border: 0;
+outline: 0;
+}
+.allcard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    margin-top: 05px;
+
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box{
+    width: 290px;
+    height: 302px;
+    
+    
+}
+.allimg{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+span{
+ color: #67B900;
+
+    
+}
+.alltext{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.alltext button{
+width: 233;
+height: 62px;
+cursor: pointer;
+background-color: #67B900;
+
+
+     
+}
+.alltext h1{
+    width: 416px;
+    height: 116px;
+}
+
+.alltext p{
+    width: 290px;
+    height: 47px;
+    font-size: 18px ;
+}
